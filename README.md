@@ -596,11 +596,11 @@ the returned request will be respected.
 - [FeatureIdentifier](#interfacestypesfeatureidentifiermd)
 - [Options](#interfacestypesoptionsmd)
 
-### Type aliases
+### Type Aliases
 
 - [ResourceType](#resourcetype)
 
-## Type aliases
+## Type Aliases
 
 ### ResourceType
 

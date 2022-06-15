@@ -16,6 +16,7 @@ import VectorSource from 'ol/source/Vector.js';
 import VectorTileLayer from 'ol/layer/VectorTile.js';
 import VectorTileSource, {defaultLoadFunction} from 'ol/source/VectorTile.js';
 import View from 'ol/View.js';
+import {Feature} from 'ol';
 import {
   _colorWithOpacity,
   stylefunction as applyStyleFunction,
@@ -492,7 +493,7 @@ export function setupVectorSource(glSource, styleUrl, options) {
         const maxZoom = tileJSONDoc.maxzoom || 22;
         const sourceOptions = {
           attributions: tileJSONSource.getAttributions(),
-          format: new MVT(),
+          format: new MVT({featureClass: Feature}),
           tileGrid: new TileGrid({
             origin: tileGrid.getOrigin(0),
             extent: extent || tileGrid.getExtent(),

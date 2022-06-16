@@ -74,7 +74,7 @@
     "mini-css-extract-plugin": "^2.4.4",
     "mocha": "^10.0.0",
     "nanoassert": "^2.0.0",
-    "ol": "git+git.jkdevelop.ru/ivanvazhenin/openlayers.git",
+    "ol": "git+https://git.jkdevelop.ru/ivanvazhenin/openlayers.git",
     "puppeteer": "^14.1.1",
     "remove-flow-types-loader": "^1.1.0",
     "rollup": "^2.70.2",

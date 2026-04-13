@@ -75,7 +75,7 @@
     "mocha": "^10.0.0",
     "nanoassert": "^2.0.0",
     "ol": "git+https://github.com/Ivazh/openlayers.git",
-    "puppeteer": "^14.1.1",
+    "puppeteer": "^24.40.0",
     "remove-flow-types-loader": "^1.1.0",
     "rollup": "^2.70.2",
     "rollup-plugin-terser": "^7.0.2",
